@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+}
+
+#theLibrary {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+#theLibrary ul {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+#theLibrary li {
+    text-align: left;
+    white-space: nowrap;
+}
+
+#addNewBook {
+    margin: 20px;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#addNewBookDiv {
+    text-align: left;
+    border:1px solid black;
+    width: 150px;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    z-index: 2;
+    background-color: white;
+    margin: 30% auto 20% auto;
+}
+
+#addNewBookDiv h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#addNewBookForm {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#closeForm {
+    display: block;
+    margin: 0 auto;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+}
